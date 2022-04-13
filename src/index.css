@@ -58,6 +58,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -121,6 +122,8 @@ img {
   .section {
     margin-top: 6rem
   }
+
+
 }
 
 /* ============== MEDIA QUERIES (SMALL DEVICES) */
@@ -132,6 +135,7 @@ img {
   .section > h2 {
     margin-bottom: 2rem;
   }
+
 }
 
 
