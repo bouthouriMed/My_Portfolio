@@ -26,7 +26,8 @@
 
 .service__head h3 {
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -46,7 +47,7 @@
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) */
