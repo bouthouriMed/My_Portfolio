@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer>
       <a href="#" className="footer__logo">
-        Both
+        Bouthouri Mohamed Elarbi
       </a>
 
       <ul className="permalinks">
@@ -49,7 +49,7 @@ function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Both, All Rights reserved</small>
+        <small>&copy; Bouthouri Med Elarbi, All Rights reserved</small>
       </div>
     </footer>
   );

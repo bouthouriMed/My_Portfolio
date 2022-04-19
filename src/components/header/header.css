@@ -1,8 +1,16 @@
+
 header {
     height: 100vh;
-    padding: 7rem;
+    padding-top: 4rem;
     overflow: hidden;
+   
+    
 }
+
+/* header h1 {
+    font-family: 'Square Peg', cursive;
+    font-size: 4rem;
+} */
 
 .header__container {
     text-align: center;
@@ -14,8 +22,9 @@ header {
 .cta {
     margin-top: 2.5rem;
     display: flex;
-    gap: 1rem;
+    gap: 1.2rem;
     justify-content: center;
+    /* width: fit-content */
 }
 
 /* ================= HEADER SOCIALS =============== */
@@ -46,7 +55,7 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem
+    padding: 1rem 0rem 1.5rem 0rem
 }
 
 /* ================= SCROLL DOWN =============== */
@@ -58,6 +67,21 @@ header {
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+.scroll__down:hover {
+    animation: left-to-right 1s ease-out forwards;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes left-to-right {
+   
+    100% {
+        bottom: 4rem
+    }
+  
+}
+
+
 
 /* ============== MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
@@ -76,6 +100,10 @@ header {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+
+    .me > img {
+        resize: cover;
     }
   }
   

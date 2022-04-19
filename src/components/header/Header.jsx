@@ -8,10 +8,10 @@ import "./header.css";
 function Header() {
   return (
     <header>
-      <div className="container header__container">
+      <section className="container header__container">
         <h5>Hello I'm</h5>
-        <h1>Bouthouri Mohamed</h1>
-        <h5 className="text-light">Full-Stack software developer</h5>
+        <h1>Bouthouri Mohamed Elarbi</h1>
+        <h5 className="text-light">Full-Stack Software Developer</h5>
         <CTA />
 
         <div className="me">
@@ -23,7 +23,7 @@ function Header() {
         </a>
 
         <HeaderSocials />
-      </div>
+      </section>
     </header>
   );
 }

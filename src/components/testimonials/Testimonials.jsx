@@ -4,6 +4,8 @@ import AVTR2 from "../../assets/avatar2.jpg";
 import AVTR3 from "../../assets/avatar3.jpg";
 import AVTR4 from "../../assets/avatar4.jpg";
 import "./testimonials.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -55,27 +57,35 @@ function Testimonials() {
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container" id="slider">
-        <div className="swipe-wrap">
-          {testimonials.map(({ name, avatar, review }, index) => (
-            <section
-              className="testimonial"
-              // spaceBetween={50}
-              // slidesPerView={3}
-              // centeredSlides
-              // onSlideChange={() => console.log("slide change")}
-              // onSwiper={(swiper) => console.log(swiper)}
-              key={index}
-            >
-              <div className="client__avatar">
-                <img src={avatar} alt="avatar one" />
-              </div>
-              <h5 className="client__name">{name}</h5>
-              <small className="client__review">{review}</small>
-            </section>
-          ))}
-        </div>
-      </div>
+      <Carousel
+        className="container testimonials__container"
+        infiniteLoop
+        autoPlay
+        swipeable
+        emulateTouch
+        interval={2000}
+        showStatus={false}
+        showThumbs={false}
+        showArrows={false}
+      >
+        {testimonials.map(({ name, avatar, review }, index) => (
+          <article
+            className="testimonial"
+            // spaceBetween={50}
+            // slidesPerView={3}
+            // centeredSlides
+            // onSlideChange={() => console.log("slide change")}
+            // onSwiper={(swiper) => console.log(swiper)}
+            key={index}
+          >
+            <div className="client__avatar">
+              <img src={avatar} alt="avatar one" />
+            </div>
+            <h5 className="client__name">{name}</h5>
+            <small className="client__review">{review}</small>
+          </article>
+        ))}
+      </Carousel>
     </section>
   );
 }
