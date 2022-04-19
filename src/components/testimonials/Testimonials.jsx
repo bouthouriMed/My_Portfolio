@@ -20,34 +20,26 @@ const testimonials = [
   {
     avatar: AVTR1,
     name: "Tina Snow",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima et
-    aliquam sequi cupiditate dignissimos at vero nostrum dolor mollitia,
-    ipsum assumenda consequuntur vitae repellat cum rerum deleniti
-    inventore molestiae ex.`,
+    review: ` It is a distinct pleasure for me to recommend Mohamed services to any and all interested parties. 
+    He has been professional, comprehensive and competent throughout the process of our working together. 
+    `,
   },
   {
     avatar: AVTR2,
-    name: "Shatta Wale",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima et
-    aliquam sequi cupiditate dignissimos at vero nostrum dolor mollitia,
-    ipsum assumenda consequuntur vitae repellat cum rerum deleniti
-    inventore molestiae ex.`,
+    name: "James makovish",
+    review: ` 
+    This guy is a true professional in every aspect. He listened to my needs, offered relevant options, was prompt to respond to all of my questions, and most importantly, he never BS’d me about anything
+.`,
   },
   {
     avatar: AVTR3,
     name: "Melvin Alen",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima et
-    aliquam sequi cupiditate dignissimos at vero nostrum dolor mollitia,
-    ipsum assumenda consequuntur vitae repellat cum rerum deleniti
-    inventore molestiae ex.`,
+    review: `The reaction to our new web site has been overwhelmingly positive; as one commented the site is “FANTASTIC. The same can be said for our view of Mohamed's work for us...”`,
   },
   {
     avatar: AVTR4,
-    name: "James makovish",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima et
-    aliquam sequi cupiditate dignissimos at vero nostrum dolor mollitia,
-    ipsum assumenda consequuntur vitae repellat cum rerum deleniti
-    inventore molestiae ex.`,
+    name: "Shatta Wale",
+    review: `    Since having our new website built by Bouthouri Mohamed, we have seen a 200% increase in the number of online contact forms being filled out and returned to us`,
   },
 ];
 
@@ -63,6 +55,7 @@ function Testimonials() {
         autoPlay
         swipeable
         emulateTouch
+        dynamicHeight={false}
         interval={2000}
         showStatus={false}
         showThumbs={false}

@@ -17,23 +17,31 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>User stories.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>User flow charts, diagrams.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Wireframes.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Content strategy.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Information architecture.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list__icon" />
+              <p>Brand and design system development.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list__icon" />
+              <p>Design technology consulting.</p>
             </li>
           </ul>
         </article>
@@ -47,27 +55,35 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Product Design.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>E-commerce Web Development.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>PoC Development.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Custom Web Development for the entreprise.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Automated QA and testing.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>IT Consultancy.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list__icon" />
+              <p>Cloud Migration.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list__icon" />
+              <p>Maintenance and post-warranty support.</p>
             </li>
           </ul>
         </article>
@@ -81,23 +97,27 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Consulting and prototyping.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Custom iOS and Android apps development.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Native and cross-platform solutions.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Automated QA and testing.</p>
             </li>
             <li>
               <BiCheck className="service__list__icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Power management, notification and geofencing.</p>
+            </li>
+            <li>
+              <BiCheck className="service__list__icon" />
+              <p>Maintenance and post-warranty support.</p>
             </li>
           </ul>
         </article>

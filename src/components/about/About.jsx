@@ -43,10 +43,11 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-            ipsum corrupti, officia sapiente possimus non placeat sit vel
-            eveniet tenetur error reiciendis ratione, hic impedit. Et deleniti
-            ad expedita nobis!
+            I'm a Full-Stack Software engineer, I create all types of mobile and
+            web based software and ensure great experience for end users. I
+            professionally design, redesign and continuously support
+            customer-facing and entreprise web and mobile apps to achieve high
+            conversion and adoption rates
           </p>
 
           <div>

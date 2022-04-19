@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
 import { IoLogoTwitter } from "react-icons/io";
 
@@ -17,33 +17,33 @@ function Footer() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
-          <FaFacebook />
+        <a href="https://www.linkedin.com/in/bouthourimed" target="_blank">
+          <FaLinkedinIn />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://instagram.com" target="_blank">
           <FiInstagram />
         </a>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com" target="_blank">
           <IoLogoTwitter />
         </a>
       </div>
