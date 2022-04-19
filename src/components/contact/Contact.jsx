@@ -16,7 +16,7 @@ function Contact() {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option__icon" />
             <h4>Email</h4>
-            <h5>bouthouri</h5>
+            <h5 style={{ color: "darkgray" }}>bouthourimed76@gmail.com</h5>
             <a href="mailto:both@gmail.com" target="_blank">
               Send a message
             </a>
@@ -24,7 +24,7 @@ function Contact() {
           <article className="contact__option">
             <RiMessengerLine className="contact__option__icon" />
             <h4>Messanger</h4>
-            <h5>bouth@gmail.com</h5>
+            <h5 style={{ color: "darkgray" }}>Bouthouri Mohamed</h5>
             <a href="https://m.me/bouthouriMed" target="_blank">
               Send a message
             </a>
@@ -32,7 +32,7 @@ function Contact() {
           <article className="contact__option">
             <BsWhatsapp className="contact__option__icon" />
             <h4>WhatsApp</h4>
-            <h5>+21653842869</h5>
+            <h5 style={{ color: "darkgray" }}> +21653842869</h5>
             <a
               href="https://api.whatsapp.com/send?phone=+21653842869"
               target="_blank"

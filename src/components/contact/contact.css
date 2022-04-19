@@ -65,5 +65,9 @@ input, textarea {
     .container.contact__container {
         width: var(--container-width-sm)
     }
+
+    form > button {
+        margin: 1rem auto
+    }
   }
   
