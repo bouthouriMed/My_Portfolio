@@ -28,18 +28,21 @@ const testimonials = [
     avatar: AVTR2,
     name: "James makovish",
     review: ` 
-    This guy is a true professional in every aspect. He listened to my needs, offered relevant options, was prompt to respond to all of my questions, and most importantly, he never BS’d me about anything
+    This guy is a true professional in every aspect. 
+    He listened to my needs, offered relevant options, was prompt to respond to all of my questions, and most importantly, he never BS’d me about anything
 .`,
   },
   {
     avatar: AVTR3,
     name: "Melvin Alen",
-    review: `The reaction to our new web site has been overwhelmingly positive; as one commented the site is “FANTASTIC. The same can be said for our view of Mohamed's work for us...”`,
+    review: `The reaction to our new web site has been overwhelmingly positive; as one commented the site is “FANTASTIC. 
+    The same can be said for our view of Mohamed's work for us...”`,
   },
   {
     avatar: AVTR4,
     name: "Shatta Wale",
-    review: `    Since having our new website built by Bouthouri Mohamed, we have seen a 200% increase in the number of online contact forms being filled out and returned to us`,
+    review: `Since having our new website built by Bouthouri Mohamed, 
+    we have seen a 200% increase in the number of online contact forms being filled out and returned to us`,
   },
 ];
 

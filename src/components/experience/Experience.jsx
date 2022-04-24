@@ -1,6 +1,7 @@
 import React from "react";
 import { BsPatchCheckFill } from "react-icons/bs";
 import "./experience.css";
+import { motion } from "framer-motion";
 
 const frontEndSkills = [
   {
@@ -80,13 +81,47 @@ const backEndSkills = [
   },
 ];
 
+const item = {
+  hidden: { x: "-100vw", opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+  },
+};
+
+const otherItem = {
+  hidden: { x: "100vw", opacity: 0 },
+  visible: {
+    x: 0,
+    opacity: 1,
+  },
+};
+
+const container = {
+  hidden: { opacity: 0, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: "spring",
+    },
+  },
+};
+
 function Experience() {
   return (
     <section id="experience">
       <h5>What skills I have</h5>
       <h2>My Experience</h2>
 
-      <div className="container experience__container">
+      <motion.div
+        className="container experience__container"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false }}
+        variants={container}
+        transition={{ duration: 0.1 }}
+      >
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
@@ -119,7 +154,7 @@ function Experience() {
             ))}
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

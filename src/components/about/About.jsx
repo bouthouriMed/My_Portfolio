@@ -5,12 +5,31 @@ import ME from "../../assets/me2.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { motion } from "framer-motion";
 
 import "./about.css";
 
+const container = {
+  hidden: { opacity: 0, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      type: "spring",
+    },
+  },
+};
+
 function About() {
   return (
-    <section id="about">
+    <motion.section
+      id="about"
+      variants={container}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: false }}
+      transition={{ duration: 0.5 }}
+    >
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 
@@ -61,7 +80,7 @@ function About() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 

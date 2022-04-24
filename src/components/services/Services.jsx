@@ -1,10 +1,23 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
 import "./services.css";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 0, scale: 0 },
+  visible: { opacity: 1, scale: 1 },
+};
 
 function Services() {
   return (
-    <section id="services">
+    <motion.section
+      id="services"
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: false }}
+      transition={{ duration: 0.5 }}
+      variants={container}
+    >
       <h5>What I Offer</h5>
       <h2>Services</h2>
 
@@ -123,7 +136,7 @@ function Services() {
         </article>
         {/* End of Content Creation*/}
       </div>
-    </section>
+    </motion.section>
   );
 }
 
